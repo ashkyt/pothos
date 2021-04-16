@@ -1,0 +1,130 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}   
+
+
+/* Header */
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #214B00;
+    justify-content: space-between;
+    align-content: center;
+    top: 0;
+    display: fixed;
+
+}
+
+div h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.nav-links {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.links {
+    color: #B8E297;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: white;
+}
+
+/* Main */
+
+.main-container {
+    display: flex;
+    height: 700px;
+    background-image: url(./resources/images/pothos\ splash.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    background-color: #B8E297;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: #214B00;
+}
+
+.main-content h2 {
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+}
+
+/* Section 1 */
+
+.section-1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.section-1-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+div p {
+    color: #214B00;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Section 2 */
+
+.section-2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.team {
+    background-image: url(./resources/images/plants-section-2.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-member  {
+    background-color: #214800;
+    width: 200px;
+        padding: 10px;
+}
+
+.team-member h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.team-member p {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info h2{
+    font-family: 'Playfair Display', serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-info p{
+    text-align: center;
+}
+
