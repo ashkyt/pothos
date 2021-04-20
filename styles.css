@@ -43,7 +43,7 @@ div h1 {
 .main-container {
     display: flex;
     height: 700px;
-    background-image: url(./resources/images/pothos\ splash.jpg);
+    background-image: url(./images/pothos\ splash.jpg);
     justify-content: center;
     align-items: center;
 }
